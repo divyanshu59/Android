@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".HomeActivity"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Shayari 2019"
+            android:background="#f70000"
+            android:textSize="30dp"/>
+
+      <ImageButton
+          android:id="@+id/btn1"
+          android:layout_width="180dp"
+          android:layout_height="180dp"
+          android:onClick="Friendship"
+          android:layout_marginTop="80dp"
+          android:background="#ffffff"
+          android:scaleType="fitXY"
+          app:srcCompat="@drawable/a1"
+          />
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:onClick="love"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginTop="80dp"
+            android:layout_alignParentEnd="true"
+            android:background="#ffffff"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/a2" />
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="180dp"
+            android:onClick="sad"
+            android:layout_height="180dp"
+            android:layout_marginTop="290dp"
+            android:background="#ffffff"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/a3" />
+
+
+        <ImageButton
+            android:id="@+id/btn4"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:onClick="funny"
+            android:layout_marginTop="290dp"
+            android:layout_alignParentEnd="true"
+            android:background="#ffffff"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/a4" />
+
+        <ImageButton
+            android:id="@+id/btn5"
+            android:layout_width="180dp"
+            android:onClick="best"
+            android:layout_height="180dp"
+            android:layout_marginTop="500dp"
+            android:background="#ffffff"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/a5" />
+
+
+        <ImageButton
+            android:id="@+id/btn6"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:onClick="dbs"
+            android:layout_marginTop="500dp"
+            android:layout_alignParentEnd="true"
+            android:background="#ffffff"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/a6" />
+
+
+        <ImageButton
+            android:id="@+id/btn7"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"
+            android:onClick="skm"
+            android:background="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="710dp"
+            android:layout_marginBottom="0dp"
+            app:srcCompat="@drawable/a7" />
+
+
+
+    </RelativeLayout>
+</ScrollView>
